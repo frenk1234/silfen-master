@@ -1,4 +1,4 @@
-fetch("http://magmadesign.dk/wp21/wp-json/wp/v2/bag?_embed&per_page=100")
+fetch("https://magmadesign.dk/wp21/wp-json/wp/v2/bag?_embed&per_page=100")
   .then((res) => res.json())
 
   .then(gotData);
