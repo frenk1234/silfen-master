@@ -98,7 +98,7 @@ header {
 
 #banner {
   height: 80vh;
-  background-image: url(/web/assets/thora-model1.jpg);
+  background-image: url(assets/thora-model1.jpg);
   /* background-image: url(web/assets/thora-model1.jpg); */
   background-size: 100%;
   background-position: bottom;
@@ -595,7 +595,7 @@ footer ul li {
   }
 
   #banner {
-    background-image: url(/web/assets/ulla-model.jpg);
+    background-image: url(assets/ulla-model.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 120%;
