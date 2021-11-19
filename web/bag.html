@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME=“ROBOTS” CONTENT=“NOINDEX, NOFOLLOW”>
+    <!-- <link rel="stylesheet" href="web/silfen.css"> -->
+    <link rel="stylesheet" href="silfen.css">
+    <script src="https://kit.fontawesome.com/7729b06534.js" crossorigin="anonymous"></script>
+    <title>Product View</title>
+</head>
+
+<body>
+    <div class="burger-menu">
+        <a href="index.html" class="header-img"><img src="../web/assets/silfen-logo-black.png" alt=""></a>
+        <!-- <a href="index.html" class="m-header-img"><img src="web/assets/silfen-logo-black.png" alt=""></a> -->
+        <span><i class="fas fa-bars"></i></span>
+    </div>
+    <header>
+        <ul class="header-nav">
+            <li><a href="index.html">SHOP</a>
+            </li>
+            <li>ABOUT</li>
+            <li>SUSTAINABILITY</li>
+            <li>SILFEN PLAY</li>
+            <li class="pre-loved">PRE-LOVED</li>
+        </ul>
+        <a href="index.html" class="header-img"><img src="../web/assets/silfen-logo-black.png" alt=""></a>
+        <ul class="header-icons">
+            <li><i class="far fa-user"></i></li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="far fa-heart"></i></li>
+            <li><i class="fas fa-shopping-bag"></i></i></li>
+        </ul>
+    </header>
+    <main id="prod-main">
+        <a href="index.html" class="breadcrumbs"><i class="fas fa-chevron-left"></i> BACK TO LIST</a>
+        <section id="prod">
+            <div id="img-grid">
+                <img id="prod-img1" alt="">
+                <img id="prod-img2" alt="">
+                <img id="prod-img3" alt="">
+            </div>
+            <div id="prod-info">
+                <div id="prod-buy">
+                    <div id="drop-fav">
+                        <p id="drop-info"></p>
+                        <i class="far fa-heart"></i>
+                        <!-- <i class="fas fa-heart"></i> -->
+                    </div>
+                    <h1 id="product-name"></h1>
+                    <div id="price-flex">
+                        <p id="prod-price"></p>
+                        <p class="new-price hidden2"></p>
+                    </div>
+                    <p id="prod-color"></p>
+                    <div class="sold-out-txt">
+                        <p>Sorry, this product is sold out. We can let you know when is back though!</p>
+                        <div id="email">
+                            <input type="text" placeholder="Your e-mail" name="search" />
+                            <button id="mail-button">Let Me Know!</button>
+                        </div>
+                    </div>
+                    <div id="buy-flex">
+                        <div id="bag-material"></div>
+                        <button id="buy">ADD TO BASKET</button>
+                    </div>
+                </div>
+
+                <p id="description"></p>
+                <div id="specs-box">
+                    <h3>DESCRIPTION <span id="specs-arrow"><i class="fas fa-chevron-right"></i></span></h3>
+                    <div id="specs" class="hidden2"></div>
+                </div>
+                <div id="delivery">
+                    <h3>DELIVERY & RETURNS <span id="delivery-arrow"><i class="fas fa-chevron-right"></i></span></h3>
+                    <p id="delivery-txt" class="hidden2">Delivery inside of Denmark takes 1-3 business days. Delivery
+                        outside of Denmark
+                        takes 3-9
+                        business days. The shipping time is the estimated time from when the package leaves our
+                        warehouse in Denmark until it reaches its destination. On all orders we offer a fair shipping
+                        fee depending on shipping distance. <br>
+                        If for any reason you are not satisfied with the items purchased, you can return your purchase
+                        within 21 days for a full refund. The return period is counted from the day you receive your
+                        goods. Click here to read more about, how to return your purchase.</p>
+                </div>
+            </div>
+            <!-- <div id="delivery">
+                <h3>DELIVERY & RETURNS <i class="fas fa-chevron-right"></i></h3>
+                <p>Delivery inside of Denmark takes 1-3 business days. Delivery outside of Denmark takes 3-9
+                    business days. The shipping time is the estimated time from when the package leaves our
+                    warehouse in Denmark until it reaches its destination. On all orders we offer a fair shipping
+                    fee depending on shipping distance. <br>
+                    If for any reason you are not satisfied with the items purchased, you can return your purchase
+                    within 21 days for a full refund. The return period is counted from the day you receive your
+                    goods. Click here to read more about, how to return your purchase.</p>
+            </div> -->
+        </section>
+        <section id="other-opts">
+            <h3></h3>
+            <div id="opts-grid">
+                <template id="opts-template">
+                    <div class="bag-card">
+                        <a class="bag-link" href="">
+                            <div class="container">
+                                <img class="bag-pic" src="" alt="">
+                                <!-- <img src="" alt="" class="bag-pic2"> -->
+                                <div class="material"></div>
+                                <div class="fav-icon"><i class="far fa-heart"></i>
+                                    <!-- <i class="fas fa-heart"></i> -->
+                                </div>
+                                <div class="sold-out-tag">Sold Out <span><i class="far fa-tired"></i></span></div>
+                                <!-- <div class="quickview">QUICKVIEW <span><i class="fas fa-search"></i></span></div> -->
+                            </div>
+                        </a>
+                        <a href="bag.html" class="card-title"></a>
+                        <p class="color-name"> </p>
+                        <p class="price"></p>
+                        <p class="off"></p>
+                    </div>
+                </template>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer-list">
+            <li>HELP</li>
+            <li>About</li>
+            <li>Sustainability</li>
+            <li>Order Tracking</li>
+            <li>Currency</li>
+            <li>Contact</li>
+        </ul>
+        <div class="address">
+            <p>SILFEN STUDIO</p>
+            <p>Klareboderne 10, 1.
+                1115 Copenhagen K
+                Denmark
+            </p>
+            <p>Phone: +45 20518923 <br>
+                VAT: DK40912320</p>
+        </div>
+        <div class="warehouse">
+            <p>WAREHOUSE</p>
+            <p>Adax A/S, Att: Silfen Studio <br>
+                Vestre Hedevej 18 <br>
+                DK-4000 Roskilde<br>
+                Denmark</p>
+        </div>
+    </footer>
+</body>
+<script src="bag.js"></script>
+<!-- <script src="web/bag.js"></script> -->
+
+</html>
